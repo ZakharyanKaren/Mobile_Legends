@@ -1,0 +1,38 @@
+.header-navbar {
+  background-color: #62effa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header-navbar_link {
+  cursor: pointer;
+}
+
+.header-navbar_link_logo {
+  width: 140px;
+}
+
+.header-navbar_menu {
+}
+
+.header-navbar_menu_link {
+  font-size: 24px;
+  text-decoration: none;
+  color: #599ad1;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.header-navbar_search {
+}
+
+.header-navbar_search_input {
+  outline: none;
+  border: none;
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 20px;
+}
