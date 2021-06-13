@@ -5,25 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content="mlbb, moba, 5v5">
+    <meta name="description" content="Mobile Legends: Bang Bang - is a world's most popular 5v5 MOBA game">
     <title>Mobile Legends: BANG BANG</title>
 
     <link rel="shortcut icon" href="./Images/download.ico" />
-    <link rel="stylesheet" href="./style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <div>
         <header class="header-navbar">
             <a class='header-navbar_link' href="./index.html">
-                <img class='header-navbar_link_logo' src="logo.png" alt="There must be a logo" />
+                <img class='header-navbar_link_logo' src="./Images/logo.png" alt="There must be a logo" />
             </a>
             <nav class="header-navbar_menu">
-                <a class="header-navbar_menu_link" href="/">News</a>
-                <a class="header-navbar_menu_link" href="/">Support</a>
-                <a class="header-navbar_menu_link" href="/">About us</a>
+                <a class="header-navbar_menu_link" href="https://m.mobilelegends.com/en/news/">News</a>
+                <a class="header-navbar_menu_link" href="https://community.fandom.com/wiki/Help:Contents">Help</a>
+                <a class="header-navbar_menu_link" href="./files/contactUs.html">Contact Us</a>
             </nav>
             <div class="header-navbar_search">
                 <input class="header-navbar_search_input" type="text" alt="searchBar" placeholder="Search..." />
@@ -32,20 +36,38 @@
 
         <div class="container">
             <nav class="container_navbar">
-                <a href="/">
+                <a href="./files/allHeroes.html">
                     <h2>All Heroes</h2>
                 </a>
-                <a href="/">
+                <a href="./files/battleSpells.html">
                     <h2>Battle Spells</h2>
                 </a>
-                <a href="/">
+                <a href="./files/items.html">
                     <h2>Items</h2>
                 </a>
             </nav>
 
-            <div class="container_body">
-                <img class='container_body_back-img' src="./logo.png" />
-            </div>
+            <main class="container_body">
+                <article>Join your friends in a brand new 5v5 MOBA showdown against real human opponents, Mobile
+                    Legends: Bang Bang! Choose your favorite heroes and build the perfect team with your
+                    comrades-in-arms! 10-second matchmaking, 10-minute battles. Laning, jungling, tower rushing, team
+                    battles, all the fun of PC MOBAs and action games in the palm of your hand! Feed your eSports
+                    spirit!
+                    Mobile Legends: Bang Bang, outstanding MOBA game on mobile. Smash and outplay your enemies with
+                    teammates to achieve the final victory!</article>
+
+                <img class='container_body_back-img' src="./Images/logo.png" />
+                <div class="get-app">
+                    <a class="container_body_googlePlay"
+                        href='https://play.google.com/store/apps/details?id=com.mobile.legends&hl=ru&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
+                        <img alt='Get it on Google Play' src='./Images/google-play.png' />
+                    </a>
+                    <a class="container_body_appStore"
+                        href="https://apps.apple.com/ru/app/mobile-legends-bang-bang/id1160056295">
+                        <img src="./Images/app-store.svg" />
+                    </a>
+                </div>
+            </main>
         </div>
     </div>
 </body>

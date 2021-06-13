@@ -10,19 +10,56 @@
   flex-direction: column;
   align-items: center;
   background-color: #62effa;
-  padding-top: 40px;
+  padding: 40px 0;
   border-right: 2px solid #599ad1;
 }
+
+.container_navbar a {
+  text-decoration: none;
+}
+
 .container_navbar h2 {
-  color: #599ad1;
+  color: #6863c7;
   cursor: pointer;
+  font-weight: 400;
+  font-family: 'Fredoka One';
 }
 
 .container_body {
   width: 80%;
   background-color: #62effa;
+  position: relative;
+  min-height: 90vh;
+}
+.container_body article {
+  background-color: #ea00ff75;
+  position: absolute;
+  font-size: 16px;
+  margin: 5px 10px 10px 10px;
+  padding: 20px;
+  color: #fffb00;
+  letter-spacing: 1px;
+  border-radius: 10px;
 }
 .container_body_back-img {
   width: 100%;
   background-repeat: no-repeat;
+}
+
+.get-app {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+}
+
+.container_body_googlePlay {
+  margin-right: 15px;
+}
+
+.container_body_googlePlay img {
+  width: 200px;
+}
+
+.container_body_appStore img {
+  width: 180px;
 }
