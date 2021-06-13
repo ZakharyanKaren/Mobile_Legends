@@ -6,9 +6,8 @@
 
 .container_body_contact-us_form {
     margin: 100px;
-    width: 500px;
+    max-width: 500px;
     border-radius: 20px;
-
 }
 .container_body_contact-us_form input {
     width: 100%;
@@ -53,4 +52,12 @@
 
 .container_body_contact-us_form input, textarea {
     color: #ff00ffe0;
+}
+
+
+
+@media screen and (max-width: 609px) and (min-width: 300px) {
+    .container_body_contact-us_form {
+        margin: 50px;
+    }
 }
