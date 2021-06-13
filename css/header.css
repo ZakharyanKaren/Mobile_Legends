@@ -24,9 +24,38 @@
 .header-navbar_search_input {
   outline: none;
   border: none;
-  width: 200px;
-  height: 30px;
+  padding: 12px 20px;
+  margin: 8px 0;
   border-radius: 20px;
-  padding-left: 20px;
-  color: #6863c7;
+  color: #ff00ffe0;
+}
+
+
+@media screen and (max-width: 779px) and (min-width: 610px) {
+  .header-navbar_link_logo {
+    width: 100px;
+  }
+  .header-navbar_menu_link {
+    font-size: 15px;
+  }
+  .header-navbar_search_input {
+    padding: 6px 10px;
+  }
+}
+
+@media screen and (max-width: 609px) and (min-width: 311px) {
+  .header-navbar_link_logo {
+    width: 100px;
+  }
+  .header-navbar_menu_link {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .header-navbar_search_input {
+    width: 120px;
+    padding: 3px 5px;
+  }
+  .header-navbar {
+    flex-direction: column;
+  }
 }

@@ -3,10 +3,17 @@
 @import url(./css/allHeroes.css);
 @import url(./css/battleSpells.css);
 @import url(./css/items.css);
+@import url(./css/contactUs.css);
 
 body {
   box-sizing: border-box;
   font-family: 'Fredoka One';
   font-size: 15px;
   font-weight: 400;
+}
+
+@media screen and (max-width: 779px) and (min-width: 500px) {
+  body {
+    font-size: 14px;
+  }
 }

@@ -1,15 +1,16 @@
-.container_body_battle-spells {
+.container_body_battle-spells .each-elem {
+    margin: 50px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.container_body_battle-spells ul {
+    list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     justify-content : space-around;
     padding: 5px;
     margin: 33px 52px;
-}
-
-.container_body_battle-spells .each-elem {
-    margin: 50px;
-    transition: 0.4s;
-    cursor: pointer;
 }
 
 .container_body_battle-spells .each-elem:hover {
