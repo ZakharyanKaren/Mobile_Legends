@@ -34,3 +34,9 @@
     text-align: center;
     font-weight: 400;
 }
+
+@media screen and (max-width: 609px) and (min-width: 311px) {
+    .container_body_heroes {
+        margin-top: 0;
+    }
+}
