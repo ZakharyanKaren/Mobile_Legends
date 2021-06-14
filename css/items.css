@@ -1,4 +1,4 @@
-.container_body_items {
+.container__items {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -6,28 +6,28 @@
   margin: 33px 52px;
 }
 
-.container_body_items .each-elem {
+.container__items section {
   margin: 20px;
   transition: 0.4s;
   cursor: pointer;
   width: 140px;
 }
 
-.container_body_items .each-elem:hover {
+.container__items section:hover {
   transform: scale(1.2);
 }
 
-.container_body_items .each-elem a {
+.container__items section a {
   display: block;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.container_body_items .each-elem img {
+.container__items section img {
   border-radius: 10%;
 }
 
-.container_body_items .each-elem h4 {
+.container__items section h4 {
   margin: 0;
   color: #6863c7;
   font-size: 18px;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (max-width: 609px) and (min-width: 311px) {
-  .container_body_items {
+  .container__items {
     margin-top: 0;
   }
 }

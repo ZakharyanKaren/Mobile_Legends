@@ -1,10 +1,10 @@
-.container_body_battle-spells .each-elem {
+.container__battle-spells li {
   margin: 50px;
   transition: 0.4s;
   cursor: pointer;
 }
 
-.container_body_battle-spells ul {
+.container__battle-spells ul {
   list-style-type: none;
   display: flex;
   flex-flow: row wrap;
@@ -13,25 +13,25 @@
   margin: 33px 52px;
 }
 
-.container_body_battle-spells ul li {
+.container__battle-spells ul li {
   width: 86px;
 }
 
-.container_body_battle-spells .each-elem:hover {
+.container__battle-spells li:hover {
   transform: scale(1.2);
 }
 
-.container_body_battle-spells .each-elem a {
+.container__battle-spells li a {
   display: block;
   text-align: center;
   margin-bottom: 15px;
 }
 
-.container_body_battle-spells .each-elem img {
+.container__battle-spells li img {
   border-radius: 10%;
 }
 
-.container_body_battle-spells .each-elem h4 {
+.container__battle-spells li h4 {
   margin: 0;
   color: #6863c7;
   font-size: 18px;
@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 609px) and (min-width: 311px) {
-  .container_body_battle-spells ul {
+  .container__battle-spells ul {
     margin-top: 0;
   }
 }

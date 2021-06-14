@@ -1,42 +1,42 @@
-.container_body_heroes {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content : space-around;
-    padding: 5px;
-    margin: 33px 52px;
+.container__heroes {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 5px;
+  margin: 33px 52px;
 }
 
-.container_body_heroes .each-elem {
-    margin: 20px;
-    transition: 0.4s;
-    cursor: pointer;
+.container__heroes section {
+  margin: 20px;
+  transition: 0.4s;
+  cursor: pointer;
 }
 
-.container_body_heroes .each-elem:hover {
-    transform: scale(1.2);
+.container__heroes section:hover {
+  transform: scale(1.2);
 }
 
-.container_body_heroes .each-elem a {
-    display: block;
-    text-align: center;
-    margin-bottom: 15px;
+.container__heroes section a {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
 }
 
-.container_body_heroes .each-elem img {
-    border-radius: 10%;
+.container__heroes section img {
+  border-radius: 10%;
 }
 
-.container_body_heroes .each-elem h4 {
-    margin: 0;
-    color: #6863c7;
-    font-size: 18px;
-    font-family: 'Fredoka One';
-    text-align: center;
-    font-weight: 400;
+.container__heroes section h4 {
+  margin: 0;
+  color: #6863c7;
+  font-size: 18px;
+  font-family: "Fredoka One";
+  text-align: center;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 609px) and (min-width: 311px) {
-    .container_body_heroes {
-        margin-top: 0;
-    }
+  .container__heroes {
+    margin-top: 0;
+  }
 }

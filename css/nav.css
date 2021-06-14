@@ -4,7 +4,7 @@
   justify-content: space-around;
   border-top: 2px solid #599ad1;
 }
-.container_navbar {
+.container__navbar {
   width: 20%;
   display: flex;
   flex-direction: column;
@@ -14,24 +14,24 @@
   border-right: 2px solid #599ad1;
 }
 
-.container_navbar a {
+.container__navbar a {
   text-decoration: none;
 }
 
-.container_navbar h2 {
+.container__navbar h2 {
   color: #6863c7;
   cursor: pointer;
   font-weight: 400;
-  font-family: 'Fredoka One';
+  font-family: "Fredoka One";
 }
 
-.container_body {
+.container__body {
   width: 80%;
   background-color: #62effa;
   position: relative;
   min-height: 90vh;
 }
-.container_body article {
+.container__body article {
   background-color: #ea00ff75;
   position: absolute;
   font-size: 16px;
@@ -41,7 +41,7 @@
   letter-spacing: 1px;
   border-radius: 10px;
 }
-.container_body_back-img {
+.container__back-img {
   width: 100%;
   background-repeat: no-repeat;
 }
@@ -56,47 +56,46 @@
   color: #62effa;
 }
 
-.container_body_googlePlay {
+.get-app__google-play {
   margin-right: 15px;
 }
 
-.container_body_googlePlay img {
+.get-app__google-play img {
   width: 200px;
 }
 
-.container_body_appStore img {
+.get-app__app-store img {
   width: 180px;
 }
 
-
 @media screen and (max-width: 779px) and (min-width: 610px) {
-  .container_body article {
+  .container__body article {
     font-size: 12px;
     padding: 15px;
   }
-  .container_navbar h2 {
+  .container__navbar h2 {
     font-size: 15px;
   }
-  .container_body_googlePlay img {
+  .get-app__google-play img {
     width: 150px;
   }
-  
-  .container_body_appStore img {
+
+  .get-app__app-store img {
     width: 135px;
   }
 }
 
 @media screen and (max-width: 609px) and (min-width: 300px) {
-  .container_body article {
+  .container__body article {
     display: none;
   }
-  .container_navbar h2 {
+  .container__navbar h2 {
     font-size: 14px;
   }
-  .container_body_googlePlay img {
+  .get-app__google-play img {
     width: 150px;
   }
-  .container_body_appStore img {
+  .get-app__app-store img {
     width: 135px;
   }
   .container {
@@ -104,7 +103,7 @@
     display: block;
     justify-content: space-around;
   }
-  .container_navbar {
+  .container__navbar {
     width: 100%;
     flex-direction: row;
     align-items: center;
@@ -114,13 +113,13 @@
     border-bottom: 2px solid #599ad1;
     border-right: none;
   }
-  .container_body {
+  .container__body {
     width: 100%;
     background-color: #62effa;
     position: relative;
     min-height: 90vh;
   }
-  .container_navbar a {
+  .container__navbar a {
     padding: 0 20px;
   }
 }
