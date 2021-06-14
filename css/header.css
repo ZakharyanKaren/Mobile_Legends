@@ -4,6 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  position: sticky;
 }
 
 .header-navbar_link {
@@ -30,7 +31,6 @@
   color: #ff00ffe0;
 }
 
-
 @media screen and (max-width: 779px) and (min-width: 610px) {
   .header-navbar_link_logo {
     width: 100px;
@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 609px) and (min-width: 311px) {
+@media screen and (max-width: 609px) and (min-width: 310px) {
   .header-navbar_link_logo {
     width: 100px;
   }
