@@ -13,6 +13,10 @@
   margin: 33px 52px;
 }
 
+.container_body_battle-spells ul li {
+  width: 100px;
+}
+
 .container_body_battle-spells .each-elem:hover {
   transform: scale(1.2);
 }

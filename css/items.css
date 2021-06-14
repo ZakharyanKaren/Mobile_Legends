@@ -10,6 +10,7 @@
   margin: 20px;
   transition: 0.4s;
   cursor: pointer;
+  width: 140px;
 }
 
 .container_body_items .each-elem:hover {
