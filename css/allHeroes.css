@@ -35,7 +35,7 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 609px) and (min-width: 311px) {
+@media screen and (max-width: 599px) and (min-width: 311px) {
   .container__heroes {
     margin-top: 0;
   }

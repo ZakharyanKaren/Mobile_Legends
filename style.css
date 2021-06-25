@@ -7,12 +7,12 @@
 
 body {
   box-sizing: border-box;
-  font-family: 'Fredoka One';
+  font-family: "Fredoka One";
   font-size: 15px;
   font-weight: 400;
 }
 
-@media screen and (max-width: 779px) and (min-width: 500px) {
+@media screen and (max-width: 800px) and (min-width: 599px) {
   body {
     font-size: 14px;
   }

@@ -6,7 +6,7 @@
 
 .container__form {
   margin: 100px;
-  max-width: 500px;
+  max-width: 599px;
   border-radius: 20px;
 }
 .container__form input {
@@ -55,7 +55,7 @@ textarea {
   color: #ff00ffe0;
 }
 
-@media screen and (max-width: 609px) and (min-width: 300px) {
+@media screen and (max-width: 599px) and (min-width: 300px) {
   .container__form {
     margin: 50px;
   }

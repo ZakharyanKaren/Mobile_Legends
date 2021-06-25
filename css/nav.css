@@ -1,11 +1,15 @@
+.wrapper {
+  height: 100vh;
+  background-color: #62effa;
+}
+
 .container {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  border-top: 2px solid #599ad1;
-  min-height: 88vh;
+  border-top: 2px solid #589ad1;
   background-color: #62effa;
-  padding-bottom: 5px;
+  height: 84%;
 }
 .container__navbar {
   width: 20%;
@@ -13,7 +17,7 @@
   flex-direction: column;
   align-items: center;
   padding: 40px 0;
-  border-right: 2px solid #599ad1;
+  border-right: 2px solid #589ad1;
 }
 
 .container__navbar a {
@@ -29,7 +33,7 @@
 
 .container__body {
   width: 80%;
-  background-image: url('../Images/logo.png');
+  background-image: url("../Images/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -72,13 +76,13 @@
   width: 180px;
 }
 
-@media screen and (max-width: 779px) and (min-width: 610px) {
+@media screen and (max-width: 800px) and (min-width: 600px) {
   .container__body article {
     font-size: 12px;
     padding: 15px;
   }
   .container__navbar h2 {
-    font-size: 15px;
+    font-size: 18px;
   }
   .get-app__google-play img {
     width: 150px;
@@ -89,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 609px) and (min-width: 300px) {
+@media screen and (max-width: 599px) and (min-width: 300px) {
   .container__body article {
     display: none;
   }
@@ -114,16 +118,34 @@
     justify-content: center;
     background-color: #62effa;
     padding: 5px 0;
-    border-bottom: 2px solid #599ad1;
+    border-bottom: 2px solid #589ad1;
     border-right: none;
   }
   .container__body {
     width: 100%;
     background-color: #62effa;
-    min-height: 88vh;
-    padding-bottom: 5px;
+    height: 100%;
   }
   .container__navbar a {
     padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: 84%;
+  }
+  .header-navbar {
+    min-height: 15%;
+  }
+  .navbar-menu {
+    text-align: center;
+    display: none;
+  }
+  .navbar-menu__link {
+    display: block;
+  }
+  .burger-menu {
+    display: block;
   }
 }
