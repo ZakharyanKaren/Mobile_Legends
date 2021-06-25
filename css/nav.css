@@ -3,13 +3,15 @@
   display: flex;
   justify-content: space-around;
   border-top: 2px solid #599ad1;
+  min-height: 88vh;
+  background-color: #62effa;
+  padding-bottom: 5px;
 }
 .container__navbar {
   width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #62effa;
   padding: 40px 0;
   border-right: 2px solid #599ad1;
 }
@@ -27,13 +29,14 @@
 
 .container__body {
   width: 80%;
-  background-color: #62effa;
-  position: relative;
-  min-height: 90vh;
+  background-image: url('../Images/logo.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 5px;
 }
 .container__body article {
   background-color: #ea00ff75;
-  position: absolute;
   font-size: 16px;
   margin: 5px 10px 10px 10px;
   padding: 20px;
@@ -48,8 +51,9 @@
 
 .get-app {
   position: absolute;
-  bottom: 15px;
-  right: 15px;
+  bottom: 0;
+  right: 0;
+  margin: 0 15px 15px 0;
 }
 
 .get-app a {
@@ -116,8 +120,8 @@
   .container__body {
     width: 100%;
     background-color: #62effa;
-    position: relative;
-    min-height: 90vh;
+    min-height: 88vh;
+    padding-bottom: 5px;
   }
   .container__navbar a {
     padding: 0 20px;
