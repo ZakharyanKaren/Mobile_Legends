@@ -1,14 +1,8 @@
-My first project.
-
-My partner - @OfelyaMalkhasyan
-
 Used technologies -
     -- media queries, that make website Adaptive --
     -- BEM methodology, that makes code readability easier --
     -- Flexbox, that makes website Responsive --
     etc...
-
-
 
 This site is for Mobile legends game players.
 
